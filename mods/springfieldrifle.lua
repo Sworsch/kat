@@ -2,6 +2,7 @@ local players = game:GetService("Players")
 
 while true do
     wait()
+    print("working")
     for _, player in pairs(players:GetChildren()) do
         local figure = workspace:FindFirstChild(player.Name, false)
 
