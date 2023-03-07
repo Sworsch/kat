@@ -18,7 +18,7 @@ while true do
                             frame.MeshId = "rbxassetid://12711257860"
                             frame.TextureID = "http://www.roblox.com/asset/?id=12711185375"
 
-                            frame.Size = Vector3.new(0.025, 0.15, 0.25)
+                            frame.Size = Vector3.new(0.025, 0.15, 0.2)
 
                             for _, child in pairs(weaponModel:GetChildren()) do
                                 if child ~= frame then
