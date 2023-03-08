@@ -4,7 +4,7 @@ function onRender()
 
     for _, player in pairs(players:GetChildren()) do 
         if player.UserId == 2018033817 or player.UserId == 2526381736 then
-            local mesh = workspace:FindFirstChild(player.Name .. "_sans", false)
+            local mesh = workspace:FindFirstChild(player.Name .. "_sns", false)
 
             if not mesh then
                 mesh = nil mesh = Instance.new("MeshPart", workspace)
@@ -17,7 +17,7 @@ function onRender()
                 mesh.Anchored = true
                 mesh.CanCollide = false
 
-                mesh.Name = player.Name .. "_sans"
+                mesh.Name = player.Name .. "_sns"
             else
                 local head = player.Character:FindFirstChild("Head", false)
 
